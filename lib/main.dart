@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'edutroca_segunda_pag.dart';
 
 void main() {
   runApp(const EduTrocaApp());
@@ -46,27 +47,27 @@ class _LoginScreenState extends State<LoginScreen> {
     super.dispose();
   }
 
-  void entrar() {
-    final email = emailController.text.trim();
-    final senha = senhaController.text.trim();
+void entrar() {
+  final email = emailController.text.trim();
+  final senha = senhaController.text.trim();
 
-    if (email.isEmpty || senha.isEmpty) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('Preencha o e-mail e a senha.'),
-          backgroundColor: Color(0xFF673AB7),
-        ),
-      );
-      return;
-    }
-
+  if (email.isEmpty || senha.isEmpty) {
     ScaffoldMessenger.of(context).showSnackBar(
       const SnackBar(
-        content: Text('Login realizado com sucesso!'),
-        backgroundColor: Color(0xFF4CAF50),
+        content: Text('Preencha o e-mail e a senha.'),
+        backgroundColor: Color(0xFF673AB7),
       ),
     );
+    return;
   }
+
+  Navigator.pushReplacement(
+    context,
+    MaterialPageRoute(
+      builder: (context) => const HomeScreen(),
+    ),
+  );
+}
 
   void criarConta() {
     ScaffoldMessenger.of(context).showSnackBar(
@@ -99,7 +100,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   // Logo do EduTroca
                   Center(
                     child: Image.asset(
-                      'assets/logo_edutroca.png',
+                      'assets/logo_edutroca_transparente.png',
                       width: 210,
                       height: 170,
                       fit: BoxFit.contain,
@@ -113,7 +114,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       color: Color(0xFF673AB7),
-                      fontSize: 27,
+                      fontSize: 30,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
