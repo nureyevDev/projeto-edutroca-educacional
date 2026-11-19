@@ -99,26 +99,8 @@ flutter analyze
 
 ## Licença
 
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para mais detalhes.
+Copyright (c) 2026 nureyevDev. Todos os direitos reservados.
 
-MIT License
+Este é um projeto pessoal e proprietário, com fins comerciais. O código-fonte, o nome, a logo e os demais materiais deste repositório não podem ser copiados, modificados, distribuídos, sublicenciados, vendidos ou utilizados, no todo ou em parte, sem autorização prévia e por escrito do autor. Consulte o arquivo LICENSE para os termos completos.
 
-Copyright (c) 2026 nureyevDev
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Para solicitar permissão de uso, entre em contato com o autor pelo perfil @nureyevDev.
